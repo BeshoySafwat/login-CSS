@@ -84,6 +84,11 @@ body{
     transform: translate(-50%, -50%);
     width: 400px;
 }
+@media (max-width:767px) {
+    .box{
+        width: 100%;
+    }
+}
 .box .content h2{
     position: relative;
     width: 100%;
