@@ -62,7 +62,9 @@ body{
 }
 @media (max-width:767px) {
     .container span{
-        width: 96px;
+/*    not support in all phones      */
+     /* width: 96px; */
+    display: none;
     }
 }
 .container span:hover{
